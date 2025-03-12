@@ -16,7 +16,7 @@ def generate_response(user_input, extra):
 
     generated_text = ""
 
-    # Generator function that yeilds chunks of text to enable real-time streaming
+    # Generator function that yields chunks of text to enable real-time streaming
     for chunk in response:
         text_chunk = chunk.message.content
 
