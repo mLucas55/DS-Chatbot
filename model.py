@@ -4,7 +4,7 @@ from history import add_to_history, supply_history
 # Prompts DeepSeek through the Ollama library to generate a response based on user input
 # The response is streamed back to the user in real-time
 def generate_response(user_input, extra):
-    history = supply_history()
+    history == supply_history()
     payload = history + user_input
 
     response = ollama.chat(
