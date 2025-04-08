@@ -1,5 +1,5 @@
 history = []
-history_limit = 10
+history_limit = 15
 history_prompt = "Here is the conversation history of your previous repsonses, they are in order of oldest to newest: "
 
 def add_to_history(response):
