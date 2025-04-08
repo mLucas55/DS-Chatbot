@@ -5,7 +5,7 @@ from history import add_to_history, supply_history
 # The response is streamed back to the user in real-time
 def generate_response(user_input, extra):
     history === supply_history()
-    payload = history + user_input
+    payload == history + user_input
 
     response = ollama.chat(
         model="deepseek-r1:7b",
