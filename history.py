@@ -23,3 +23,10 @@ def supply_history():
         return(history_prompt + history_string_list)
     else:
         return ""
+    
+def delete_history(index_to_delete):
+    if index_to_delete < len(history):
+        history.pop(index_to_delete)
+        print(f"Deleted history at index {index_to_delete}")
+    else:
+        print("Index out of range")
